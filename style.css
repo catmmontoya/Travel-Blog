@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 550px;
+}
+
+element.style {
+    height: 200px;
+    width: 500px;
+}
+
+.card {
+    width: 500px;
+    top: 100px;
+    left: 40px;
+    height: 250px;
+    padding-left: 40px;
+    padding-top: 50px;
+} 
+
+.card--image {
+    display: block;
+    float: left;
+    /* position: relative; */
+    justify-content: flex-start;
+    width: 130px;
+    height: 173px;
+    top: 100px;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.card--text {
+    width: 326px;
+    height: 45px;
+    left: 184px;
+    top: 203px;
+    font-family: 'Inter';
+    font-style: regular; 
+    font-size: 10.24px;
+    line-height: 15px;
+    line-height: 150%;
+    text-align: left;
+    vertical-align: top;
+    color: #2B283A;
+    margin-top: 5px;
+}
+
+.card--title {
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 650;
+    text-align: left;
+    vertical-align: top;
+    color: #2B283A;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.card--pin {
+    width: 18px;
+    height: 12px;
+    left: 184px;
+    top: 120px;
+    padding-right: 5px;
+}
+
+.card--location {
+    font-family: 'Inter';    
+    font-weight: 400;    
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 3px;
+    padding-right: 10px;
+}
+
+.card--maps {
+    /* position: absolute; */
+    width: 106px;
+    height: 13px;
+    left: 247px;
+    top: 119px;
+    font-family: 'Inter';
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--date {
+    font-family: 'Inter';
+    color: #2B283A;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* .section img {
+      margin-right: 10px;
+  display: block;
+} */
+
+nav {
+    /* position: absolute; */
+    width: 550px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+}
+
+.nav--logo {
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: #F55A5A;
+    max-width: 300px;
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.card:first-of-type {
+    margin-top: 0px;
+}
+
+.card-section1 {
+    width: 550px;
+    height: 704px;  
+    /* margin-right: 10px; */
+    display: block;
+    padding-right: 100px;
+}
+
+.card--section2 {
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
