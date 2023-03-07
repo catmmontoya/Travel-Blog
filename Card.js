@@ -26,7 +26,6 @@ export default function Card(props) {
           <p className="card--text">{props.item.description}</p>
         </div>
       </section>
-      <hr />
     </div>
   );
 }

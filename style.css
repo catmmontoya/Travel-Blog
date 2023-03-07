@@ -19,7 +19,16 @@ element.style {
     padding-top: 50px;
     margin-right: 0px;
     justify-content: center;
+    border-bottom: #918E9B;;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 } 
+
+.nav--text {
+    color: white;
+    font-family: Inter;
+    margin-top: 18px;
+}
 
 .card--image {
     display: block;
@@ -103,11 +112,6 @@ element.style {
     font-size: 14px;
 }
 
-/* .section img {
-      margin-right: 10px;
-  display: block;
-} */
-
 nav {
     position: absolute;
     width: 100%;
@@ -120,18 +124,22 @@ nav {
 }
 
 .nav--logo {
-    height: 30px;
+    height: 40px;
     left: 0px;
     top: 0px;
     background-color: #F55A5A;
     max-width: 300px;
     display: flex;
-    margin-top: 15px;
+    margin-top: 9px;
     
 }
 
 .card:first-of-type {
     margin-top: 50px;
+}
+
+.card:last-of-type {
+    border-bottom-style: none;
 }
 
 .card-section1 {

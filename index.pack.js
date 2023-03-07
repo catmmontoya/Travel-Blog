@@ -561,8 +561,7 @@ function Card(props) {
           props.item.description
         )
       )
-    ),
-    _react2.default.createElement("hr", null)
+    )
   );
 }
 
@@ -591,7 +590,7 @@ function Hero() {
     _react2.default.createElement("img", { src: "./images/HEADSHOT.png", className: "hero--img" }),
     _react2.default.createElement(
       "h3",
-      { className: "hero--text card" },
+      { className: "hero--text" },
       "Welcome! Nice to meet you. A couple years ago I decided it was time to start seeing the world. I've had the opportunity to see so many places and have journaled them here. Enjoy!"
     )
   );
