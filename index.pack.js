@@ -504,62 +504,55 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Card(props) {
   return _react2.default.createElement(
-    "div",
+    "section",
     { className: "card" },
+    _react2.default.createElement("img", { className: "card--image card--section1", src: "" + props.item.image }),
     _react2.default.createElement(
-      "section",
-      null,
-      _react2.default.createElement("img", {
-        className: "card--image card--section1",
-        src: "" + props.item.image
-      }),
+      "div",
+      { className: "card--section2" },
+      _react2.default.createElement(
+        "span",
+        null,
+        _react2.default.createElement("img", { src: "./images/LocationPin.png", className: "card--pin" })
+      ),
+      _react2.default.createElement(
+        "span",
+        { className: "card--location" },
+        props.item.location
+      ),
+      _react2.default.createElement(
+        "a",
+        { href: props.item.googleMapsUrl, className: "card--maps" },
+        "View on Google Maps"
+      ),
       _react2.default.createElement(
         "div",
-        { className: "card--section2" },
+        { className: "card--title" },
         _react2.default.createElement(
           "span",
           null,
-          _react2.default.createElement("img", { src: "./images/LocationPin.png", className: "card--pin" })
-        ),
-        _react2.default.createElement(
-          "span",
-          { className: "card--location" },
-          props.item.location
-        ),
-        _react2.default.createElement(
-          "a",
-          { href: props.item.googleMapsUrl, className: "card--maps" },
-          "View on Google Maps"
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "card--title" },
-          _react2.default.createElement(
-            "span",
-            null,
-            props.item.title
-          )
-        ),
-        _react2.default.createElement(
-          "div",
-          null,
-          _react2.default.createElement(
-            "span",
-            { className: "card--date" },
-            props.item.startDate,
-            " - "
-          ),
-          _react2.default.createElement(
-            "span",
-            { className: "card--date" },
-            props.item.endDate
-          )
-        ),
-        _react2.default.createElement(
-          "p",
-          { className: "card--text" },
-          props.item.description
+          props.item.title
         )
+      ),
+      _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(
+          "span",
+          { className: "card--date" },
+          props.item.startDate,
+          " - "
+        ),
+        _react2.default.createElement(
+          "span",
+          { className: "card--date" },
+          props.item.endDate
+        )
+      ),
+      _react2.default.createElement(
+        "p",
+        { className: "card--text" },
+        props.item.description
       )
     )
   );
