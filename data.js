@@ -32,7 +32,7 @@ export default [
     startDate: "1 Oct, 2021",
     endDate: " 18 Nov, 2021",
     description:
-      "The Geiranger Fjord is fjord in the Sunnmore region of More og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
+      "The Geiranger Fjord is fjord in the Sunnmore region of More og Romsdal county, Norway. It is located entirely in the Stranda Municipality. It's the innermost branch of a huge network of meandering fjords, and is completely navigable by boat.",
     image: "./images/NorwayFigma.png",
   },
   {
@@ -44,7 +44,7 @@ export default [
     startDate: "Feb 1, 2022",
     endDate: "Feb 6, 2022",
     description:
-      "The Van Gogh Museum in Amsterdam contains the largest collection of paintings by Vincent van Gogh in the world.",
+      "The Van Gogh Museum in Amsterdam contains the largest collection of paintings by Vincent van Gogh in the world. It was absolutely breathtaking to witness these paintings in person.",
     image: "./images/VanGoghMuseum.jpeg",
   },
   {
@@ -68,7 +68,7 @@ export default [
     startDate: "June 3, 2022",
     endDate: "June 15, 2022",
     description:
-      "The Amalfi Coast is famous for its picturesque seaside towns, cliffs, and beaches. It's known for its stunning coastline and colorful villages with steep and narrow streets.",
+      "The Amalfi Coast is famous for its picturesque seaside towns, cliffs, and beaches. It's known for its stunning coastline and colorful villages with steep and narrow streets. We went back several times.",
     image: "./images/AmalfiCoast.jpeg",
   },
 ];
